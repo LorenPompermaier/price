@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 150px;
+    font-size: 14px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    
+  }
+
+  .cabeçalho {
+    position: absloute;
+    margin-left: 20px;
+
+  }
+
+  .cabeçalho .título {
+    color: hsl(179, 62%, 43%);
+
+  }
+
+  .cabeçalho h4 {
+    font-size: medium;
+    color: hsl(71, 73%, 54%);
+
+  }
+
+  .cabeçalho p {
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 30px;
+    line-height: 26px;
+    font-size: 15px;
+    width: 500px;
+
+  }
+
+  .rodapé {
+    display: flex;
+
+  }
+
+  .rodapé .esquerda {
+    background-color: hsl(179, 62%, 43%);
+    width: 35vh;
+    height: 30vh;
+    padding-left: 25px;
+    color: hsl(204, 43%, 93%);
+    font-size: 20px;
+
+  }
+
+  .rodapé .direita  {
+    font-size: 20px; 
+    margin-right: 35px;
+    width: 35vh;
+    height: 30vh;
+
+  }
+
+  .rodapé .esquerda .btn {
+    font-size: 15px;
+    width: 95%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: hsl(71, 73%, 54%);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 81, 171, 0.15);
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+
+  }
+
+  .rodapé .direita {
+    background-color: hsl(179, 62%, 43% , 0.8);
+
+  }
+
+  .rodapé .direita .final {
+    padding: 20px;
+    width: 30vh;
+    color: hsl(204, 43%, 93%);
+
+  }
+
+  .rodapé .direita .final h4 {
+    padding-left: 37px;
+    text-transform: uppercase;
+
+  }
+
+  .rodapé .direita .lista li {
+    line-height: 24px;
+    font-size: 15px;
+    display: block;
+
+  }
